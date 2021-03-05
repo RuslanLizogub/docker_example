@@ -1,2 +1,12 @@
 # docker_example
-docker_example
+```shell
+docker images
+docker ps -a
+docker pull ubuntu:18.04
+docker build -t test_image:18.05 .
+docker ps -a
+docker rm -vf $(docker ps -a -q)
+docker rmi -f $(docker images -a -q)
+docker run -i -t test_image:18.05 /bin/bash
+docker run test_image:18.05
+```
