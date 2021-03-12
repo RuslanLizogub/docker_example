@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  test_image2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  test_image3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+  ubuntu:
+    image: ubuntu:18.04
+
+  ubuntu2:
+    image: ubuntu:18.04
+
+  ubuntu3:
+    image: ubuntu:18.04
