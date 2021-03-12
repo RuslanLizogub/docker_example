@@ -17,3 +17,4 @@ docker-compose build
 docker-compose up
 docker-compose logs
 ```
+![image](https://user-images.githubusercontent.com/6627053/110915649-952eda80-8320-11eb-827c-4dbbbf428d70.png)
